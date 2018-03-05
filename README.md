@@ -23,6 +23,18 @@ yarn start
 #### Enabled authentication with aws-amplify 
 Configured and enabled aws-amplify within app.js  
 
+[commit](https://github.com/spjenk/amplify-react-example/commit/b0ab0f5cdb06d5b9ad30aedbfd781eefd0638ca0)
+
+
+#### Create secure lambda then call from react app using amplify 
+Created lambda and enabled authentication via IAM (serverless.yml) 
+
+Deploying the lambda and API Gateway 
+```
+    sls deploy
+``` 
+[serverless](https://serverless.com/framework/docs/providers/aws/) - serverless documentation for aws 
+
 
 
 
